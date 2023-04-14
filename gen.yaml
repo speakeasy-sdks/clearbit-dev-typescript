@@ -1,10 +1,15 @@
 configVersion: 1.0.0
+management:
+  docChecksum: b712d3bf8915645333fc1e78270d5f28
+  docVersion: "2.0"
+  speakeasyVersion: 1.20.0
+  generationVersion: 2.18.0
 generation:
   telemetryEnabled: false
   sdkClassName: SDK
-  sdkFlattening: true
+  sdkFlattening: false
   singleTagPerOp: false
 typescript:
-  version: ""
+  version: 1.0.0
   author: clearbit-dev
   packageName: person-v2
